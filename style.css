@@ -1,0 +1,92 @@
+body {
+    background-image: url(images/bg2000x2000.png);
+    background-color: #cccccc;
+   }
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: Motterdam-K74zp;
+    font-size: 75px;
+}
+
+@font-face {
+    font-family: Motterdam-K74zp;
+    src: url(fonts/Motterdam-K74zp.ttf) format("truetype");
+    src: url(fonts/Motterdam-K74zp.woff) format("woff");
+}
+
+@media only screen and (max-width: 700px) {
+    .window {
+        width: 100% !important;
+    }
+}
+
+.face {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.format {
+    color: #71cbfc;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}
+
+.format2 {
+    color: #71cbfc;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    text-align: center;
+}
+
+.format3 {
+    color: #bce8ff;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: center;
+}
+
+.window {
+    background-color:#0b2431;
+    border: 2px solid #fc61ca;
+    border-radius: 25px;
+    padding: 1%;
+    width: 40%;
+    margin: auto;
+}
+
+.btn {
+    background-color: #8afcba;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 10px;
+    cursor: url(cursors/Link\ Select.cur), pointer;
+}
+
+.btn:hover {
+    background-color: #67bb8a;
+}
+
+.center-justified {
+    text-align: justify;
+    text-align-last: center;
+}
+
+html {
+    cursor: url(cursors/Normal\ Select.cur), auto;
+}
+
+a {
+    cursor: url(cursors/Link\ Select.cur), pointer;
+}
+
+.slct {
+    cursor: url(cursors/Text\ Select.cur), text;
+}
